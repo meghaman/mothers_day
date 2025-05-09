@@ -4,29 +4,26 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { FaChild, FaHeart, FaCamera } from "react-icons/fa";
+import { FaChild, FaHeart, FaCamera, FaKiss, FaCoffee } from "react-icons/fa";
+
+import first_date from "./images/Mar_11_2020.jpg";
+import geocaching from "./images/May_9_2020.jpg";
 
 const timelineData = [
   {
-    date: "2018-06-22",
-    title: "Wedding Day",
-    description: 'The day we said "I do".',
-    icon: <FaHeart />,
-    image: "/images/wedding.jpg",
+    date: "2020-03-11",
+    title: "First Date",
+    description: "First date at Aroma. The infamous chocolate powder incident.",
+    icon: <FaCoffee />,
+    image: first_date,
   },
   {
-    date: "2020-03-10",
-    title: "First Baby Born",
-    description: "Our family grew by one ❤️",
-    icon: <FaChild />,
-    image: "/images/baby.jpg",
-  },
-  {
-    date: "2023-08-15",
-    title: "First Family Vacation",
-    description: "Beach days, laughter, and ice cream.",
-    icon: <FaCamera />,
-    image: "/images/vacation.jpg",
+    date: "2020-03-28",
+    title: "Geocaching Adventure",
+    description:
+      'Our geocaching third date! You learned the "rules" of geocaching that were totally real and not made up at all. We talked about running and you were not impressed by my 5k time. I was impressed by your 5k time.',
+    icon: <FaKiss />,
+    image: geocaching,
   },
 ];
 
@@ -36,7 +33,12 @@ const FamilyTimeline = () => {
       {timelineData.map((item, idx) => (
         <VerticalTimelineElement
           key={idx}
-          date={item.date}
+          date={new Date(item.date).toLocaleDateString("en-US", {
+            year: "numeric",
+            month: "long",
+            day: "numeric",
+          })}
+          dateClassName="vertical-timeline-element-date"
           icon={item.icon}
           iconStyle={{ background: "#fca5a5", color: "#fff" }}
         >
