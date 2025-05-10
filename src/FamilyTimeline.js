@@ -15,6 +15,7 @@ import {
   FaGift,
   FaHome,
   FaRing,
+  FaPlus,
 } from "react-icons/fa";
 
 import Mar_11_2020 from "./images/Mar_11_2020.jpg";
@@ -29,6 +30,8 @@ import Jan_10_2021 from "./images/Jan_10_2021.jpg";
 import Mar_7_2021 from "./images/Mar_7_2021.jpg";
 import Apr_3_2021 from "./images/Apr_3_2021.jpg";
 import May_22_2021 from "./images/May_22_2021.jpg";
+import Jun_4_2021 from "./images/Jun_4_2021.jpg";
+import Aug_12_2021 from "./images/Aug_12_2021.jpg";
 
 const timelineData = [
   {
@@ -126,6 +129,22 @@ const timelineData = [
       "After weeks of secretly creating the website, planning the proposal I proposed! You knew it was coming when I brought your hiking boots to the farm without asking you. I'll be more sneaky the next time I propose.",
     icon: <FaRing />,
     image: May_22_2021,
+  },
+  {
+    date: "2021-07-04 00:00:00 EST",
+    title: "Accident On Purpose",
+    description:
+      "The morning when parents meet for the first time we find out that we've got a little Babu on the way. I only believed you after we got a real pregnancy test!",
+    icon: <FaPlus />,
+    image: Jun_4_2021,
+  },
+  {
+    date: "2021-08-12 00:00:00 EST",
+    title: "Our Special Day",
+    description:
+      "A beautiful day. We've known each other for less than 18 months but we knew in our hearts we were right for each other.",
+    icon: <FaRing />,
+    image: Aug_12_2021,
   },
 ];
 
