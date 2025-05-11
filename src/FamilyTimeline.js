@@ -5,7 +5,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import {
-  FaChild,
+  FaHandHoldingHeart,
   FaHeart,
   FaCamera,
   FaKiss,
@@ -22,6 +22,11 @@ import {
   FaWalking,
   FaHiking,
   FaUmbrellaBeach,
+  FaFire,
+  FaBirthdayCake,
+  FaTired,
+  FaSun,
+  FaCanadianMapleLeaf,
 } from "react-icons/fa";
 
 import Mar_11_2020 from "./images/Mar_11_2020.jpg";
@@ -47,6 +52,18 @@ import Jun_17_2022 from "./images/Jun_17_2022.jpg";
 import Sep_8_2022 from "./images/Sep_8_2022.jpg";
 import Oct_22_2022 from "./images/Oct_22_2022.jpg";
 import Dec_2_2022 from "./images/Dec_2_2022.jpg";
+import Jan_31_2023 from "./images/Jan_31_2023.jpg";
+import Feb_19_2023 from "./images/Feb_19_2023.jpg";
+import Jun_30_2023 from "./images/Jun_30_2023.jpg";
+import Aug_13_2023 from "./images/Aug_13_2023.jpg";
+import Oct_31_2023 from "./images/Oct_31_2023.jpg";
+import Jan_25_2024 from "./images/Jan_25_2024.jpg";
+import Mar_5_2024 from "./images/Mar_5_2024.jpg";
+import May_18_2024 from "./images/May_18_2024.jpg";
+import Jun_21_2024 from "./images/Jun_21_2024.jpg";
+import Nov_3_2024 from "./images/Nov_3_2024.jpg";
+import Jan_6_2025 from "./images/Jan_6_2025.jpg";
+import Apr_29_2025 from "./images/Apr_29_2025.jpg";
 
 const timelineData = [
   {
@@ -226,12 +243,108 @@ const timelineData = [
     image: Oct_22_2022,
   },
   {
-    date: "2022-05-08 00:00:00 EST",
+    date: "2022-12-02 00:00:00 EST",
     title: "Florida is the best!",
     description:
       "Even though we're living in a construction zone Florida is still pretty fantastic. We decide we're going to retire here and start our own family bootcamp (a la Granny).",
     icon: <FaUmbrellaBeach />,
     image: Dec_2_2022,
+  },
+  {
+    date: "2023-01-31 00:00:00 EST",
+    title: "Hot hand",
+    description:
+      "Our trip to Vale has some ups and downs and cold and HOT moments. Babu seems fine though but he still a little bit nervous around fireplaces.",
+    icon: <FaFire />,
+    image: Jan_31_2023,
+  },
+  {
+    date: "2023-02-19 00:00:00 EST",
+    title: "Caleb's First Birthday!",
+    description:
+      "Our little big guy turns one. We have our first birthday party and we learn firsthand the stress of children's birthday parties.",
+    icon: <FaBirthdayCake />,
+    image: Feb_19_2023,
+  },
+  {
+    date: "2023-06-30 00:00:00 EST",
+    title: "Welcome Pearl!",
+    description:
+      "The Little lady finally arrives! She waited just after the cottage weekend but in the middle of the night. Most of the birth is us waiting for your mom to show up at our house.",
+    icon: <FaBaby />,
+    image: Jun_30_2023,
+  },
+  {
+    date: "2023-08-13 00:00:00 EST",
+    title: "Pearl's Baby Naming",
+    description:
+      "These post-birth celebrations are not relaxing! From picking the right plate to putting together a rain plan, you and Cathy were stressed up until the last minute. Either way, the weather cooperated and we had plenty of food and no one said a single word about the plating.",
+    icon: <FaStarOfDavid />,
+    image: Aug_13_2023,
+  },
+  {
+    date: "2023-10-31 00:00:00 EST",
+    title: "Cali Trip Round 2",
+    description:
+      "A tough flight followed by multiple nights of Pearl not sleeping. We make the most of it and realize that travelling with kids is not the cakewalk it used to be.",
+    icon: <FaTired />,
+    image: Oct_31_2023,
+  },
+  {
+    date: "2024-01-25 00:00:00 EST",
+    title: "Vale Trip Round 2",
+    description:
+      "Turns out the key to kids is just have lots of help and older kids taking care of younger kids. Sirina is worth her weight in gold and we actually have a great time skiing. Sara doesn't kill anyone on the slopes too.",
+    icon: <FaSkiing />,
+    image: Jan_25_2024,
+  },
+  {
+    date: "2024-03-05 00:00:00 EST",
+    title: "Hawaiian Honeymoon",
+    description:
+      "We finally have our honeymoon - 2 & 1/2 years after getting married. No kids, lots of sun but 1 less pair of amazing sunglasses. Although we (I) missed the kids we had an amazing time together. We learned to stop at every fruit stand and the weirder a fruit looked, the better it tasted. Can't wait to take another romantic trip with you again.",
+    icon: <FaSun />,
+    image: Mar_5_2024,
+  },
+  {
+    date: "2024-05-18 00:00:00 EST",
+    title: "Utah Girls Trip",
+    description:
+      "You take Pearl on a girls trip to Utah with your mom and Sara. She tells me her favorite part is you telling your mother that she cannot have a 1 hour breakfast before a day of hiking.",
+    icon: <FaSun />,
+    image: May_18_2024,
+  },
+  {
+    date: "2024-06-21 00:00:00 EST",
+    title: "Alan's Birthday Bash",
+    description:
+      "Alan has a big birthday with all the grandkids! When we get home, we decide to add to his count.",
+    icon: <FaBirthdayCake />,
+    image: Jun_21_2024,
+  },
+  {
+    date: "2024-11-03 00:00:00 EST",
+    title: "Pearl & Caleb - BFFs",
+    description:
+      "Caleb and Pearl are starting to play more and more with each other. Running laps around the house together, holding hands, and Pearl always asks for 'Babu' as soon as she wakes up from her nap.",
+    icon: <FaHandHoldingHeart />,
+    image: Nov_3_2024,
+  },
+  {
+    date: "2025-01-26 00:00:00 EST",
+    title: "Jakey Joins The Party",
+    description:
+      "In what is considered the fastest labour of all time, little Jakey is born! Little less fanfare from the family but we're just training him for life as a third child. You pick the perfect song for him, Father and Son, I always choke up (just a little!) whenever I hear it.",
+    icon: <FaBaby />,
+    image: Jan_6_2025,
+  },
+  {
+    date: "2025-01-26 00:00:00 EST",
+    title: "Our Ridiculous Loving Family",
+    description:
+      "Three kids in three years. People think we're crazy for pulling off a stunt like this but we know that the insanity is totally worth it. From Caleb telling us how 'that's so cozy!' to Pearl's screaming 'ME!' at every character in a book to Jakey being our ",
+    icon: <FaCanadianMapleLeaf />,
+    image: Apr_29_2025,
   },
 ];
 
